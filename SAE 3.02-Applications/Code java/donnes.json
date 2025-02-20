@@ -1,0 +1,23 @@
+{
+  "parametres": {
+    "limite_min": 10,
+    "limite_max": 1000,
+    "regles": "1. Seules les personnes majeures sont autorisées à jouer. | 2. Le jeu doit rester un loisir, fixez-vous des limites pour éviter toute dépendance. | 3. Toute mise effectuée est définitive et ne peut être remboursée. | 4. Le respect du croupier et des autres joueurs est obligatoire. | 5. Toute suspicion de triche entraînera une enquête et une éventuelle suspension du compte."
+  },
+  "messages": [
+    { "categorie": "erreurs", "cle": "utilisateur_manquant", "valeur": "Erreur : informations utilisateur manquantes." },
+    { "categorie": "erreurs", "cle": "mise_a_jour_solde", "valeur": "Erreur de mise à jour du solde." },
+    { "categorie": "erreurs", "cle": "erreur_annulation_mise", "valeur": "Erreur : impossible d'annuler cette mise." },
+
+    { "categorie": "mises", "cle": "selection_jeton", "valeur": "Veuillez d'abord sélectionner un jeton." },
+    { "categorie": "mises", "cle": "solde_insuffisant_jeton", "valeur": "Solde insuffisant pour ce jeton." },
+    { "categorie": "mises", "cle": "solde_insuffisant_mise", "valeur": "Solde insuffisant pour cette mise." },
+    { "categorie": "mises", "cle": "aucune_mise_annuler", "valeur": "Aucune mise à annuler." },
+    { "categorie": "mises", "cle": "mises_ferment", "valeur": "Dépêchez-vous, les mises ferment bientôt !" },
+    { "categorie": "mises", "cle": "mises_fermees", "valeur": "Les mises sont fermées." },
+    { "categorie": "mises", "cle": "resume_mises", "valeur": "Résumée des mises." },
+
+    { "categorie": "jeu", "cle": "phrase_jeux", "valeur": "Les jeux sont faits, rien ne va plus." },
+    { "categorie": "jeu", "cle": "phrase_attention", "valeur": "Vous avez atteint un solde insuffisant, veuillez ajouter de l'argent à nouveau !" }
+  ]
+}

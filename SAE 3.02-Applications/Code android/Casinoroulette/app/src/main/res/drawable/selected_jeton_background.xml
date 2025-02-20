@@ -1,0 +1,5 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#FFD700" /> <!-- Couleur de fond pour un jeton sélectionné -->
+    <corners android:radius="8dp" />
+    <stroke android:width="3dp" android:color="#FF0000" /> <!-- Bordure rouge -->
+</shape>
